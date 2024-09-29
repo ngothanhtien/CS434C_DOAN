@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Game</title>
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="header">
+        <ul id="nav">
+         <li><a href="/PAGE_HOME/home.html">Trang Chủ</a></li>
+         <li><a href="/PAGE_RANKING/ranking.html">Xếp Hạng</a></li>
+         <li class="review"><a href="/PAGE_REVIEW/review.html">Mô Tả Game</a></li>
+         <li><a href="/PAGE_DOWNLOAD/download.html">Tải Game</a></li>
+         <li>
+             <a href="">
+                 Tiện ích Khác
+                 <i class="A-down ti-angle-down"></i>
+             </a>
+             <ul class="subnav">
+                 <li><a href="">ĐÁNH GIÁ</a></li>
+                 <li><a href="">THANH TOÁN</a></li>
+             </ul>
+         </li>
+         <li class="exit"><a href="#" onclick="confirmLogout()">Đăng xuất</a></li>
+        </ul>
+         </div>
+    <div class="container">
+        <header>
+            <div class="logo" id="logo">Black Myth Wukong</div>
+            <div id="search-section">
+                <input type="text" id="search-bar" placeholder="Search for a game..." />
+                <button id="search-button"><i class="ti-search"></i> Search</button>
+            </div>
+        </header>
+        <div class="content">
+            <div class="main-display">
+                <div class="game-highlight">
+                    <img id="main-image" src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/Black_Myth_Wukong_gia_bao_nhieu_01_a83cc0b049.jpg" alt="Black Myth Wukong">
+                </div>
+                <div class="game-thumbnails">
+                    <button class="arrow left">&#10094;</button>
+                    <img id="thumb1" src="https://cdn.xtmobile.vn/vnt_upload/news/cach-choi-black-myth-wukong-2024-moi-nhat.jpg" alt="Game 1">
+                    <img id="thumb2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Urkw9cWE4bqEURDmLAkzdKEPQ_4KIhC5LQ&s" alt="Game 2">
+                    <img id="thumb3" src="https://images.augustman.com/wp-content/uploads/sites/2/2024/08/22144203/file-18.jpeg" alt="Game 3">
+                    <button class="arrow right">&#10095;</button>
+                </div>
+            </div>
+
+            <!-- Description Panel -->
+            <div class="description">
+                <h3>Description</h3>
+                <p id="game-description">
+                    Bạn sẽ vào vai Tôn Ngộ Không (Wukong), một nhân vật truyền thuyết với khả năng biến hóa đa dạng. Bạn sẽ phiêu lưu qua nhiều vùng đất, chiến đấu với quái vật và đối đầu với các vị thần.<br><br>
+                    Trò chơi bắt đầu với một giới thiệu về Ngọc Hoàng Đường (Sun Wukong), một con khỉ thần thoại, người đã đạt được sức mạnh phi thường thông qua việc tu luyện. Cốt truyện khám phá quá trình biến hình và sức mạnh của Wukong, từ việc sống trong rừng sâu cho đến khi tìm kiếm danh vọng và mục đích lớn hơn.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="review.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.members-list {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+  }
+  
+  .column-third {
+    text-align: center; /* Căn giữa nội dung văn bản */
+  }
+  
+  .member-img {
+    display: block; /* Chuyển hình ảnh thành block để căn giữa */
+    margin: 0 auto; /* Căn giữa hình ảnh theo chiều ngang */
+  }
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    height: 56px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav .search-img {
+    color: white;
+    font-size: 30px;
+}
+
+#header .search-btn {
+    float: right;
+    padding: 0 27px;
+}
+
+#header .search-btn:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+#header .search-img {
+    color: white;
+    font-size: 24px;
+    line-height: 56px;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 56px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: black;
+    background-color: #ccc;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav .A-down {
+    font-size: 14px;
+}
+
+#nav .subnav a {
+    color: black;
+    padding: 0 20px;
+    line-height: 46px;
+}
+
+#slider {
+    margin-top: 56px;
+    height: 1000px;
+    width: 100vw;
+    background: url('https://i.pinimg.com/736x/cb/c5/bf/cbc5bf66766bb6be6675fabd7cdddc3a.jpg') top center / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: -300px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-heading {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#slider .text-description {
+    font-size: 15px;
+    margin-top: 20px;
+    font-style: oblique;
+}
+
+#content .content-section {
+    width: 870px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0 112px;
+    text-align: center;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    text-align: center;
+}
+
+#content .section-sub-heading {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-ct {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+    width: 869px;
+    line-height: 1.6;
+}
+
+#content .menbers-list {
+    margin-top: 75px;
+}
+
+#content .menber-img {
+    margin-top: 15px;
+    width: 200px;
+    height: 300px; 
+    border-radius: 4px;
+    object-fit: cover; 
+    background-size: cover;
+}
+
+#content .menber-name {
+    font-size: 20px;
+    font-style: oblique;
+}
+#content .p-manager{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+    opacity: 0.6;
+}
+.exit{
+    margin-left: 623px;
+}
+.ti-home{
+    color: #fff;
+}

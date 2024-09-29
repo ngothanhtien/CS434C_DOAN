@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Log In</h2>
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Email" required>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <i class="show-password">👁️</i>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+            <p class="account-msg">Already haven't an account? <a href="/PAGE_REGISTER/register.html">Create account</a></p>
+            <div class="or-login-with">
+                <p>Or Log in with</p>
+                <div class="social-buttons">
+                    <button class="facebook">Facebook</button>
+                    <button class="google">Google</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

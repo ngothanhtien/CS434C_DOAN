@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Download Center</title>
+    <link rel="stylesheet" href="download.css">
+    <link rel="stylesheet" href="/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <!-- Main container -->
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+             <li><a href="/PAGE_HOME/home.html">Trang Chủ</a></li>
+             <li><a href="/PAGE_RANKING/ranking.html">Xếp Hạng</a></li>
+             <li><a href="/PAGE_REVIEW/review.html">Mô Tả Game</a></li>
+             <li class="download"><a href="/PAGE_DOWNLOAD/download.html">Tải Game</a></li>
+             <li>
+                 <a href="">
+                     Tiện ích Khác
+                     <i class="A-down ti-angle-down"></i>
+                 </a>
+                 <ul class="subnav">
+                     <li><a href="">ĐÁNH GIÁ</a></li>
+                     <li><a href="">THANH TOÁN</a></li>
+                 </ul>
+             </li>
+             <li class="exit"><a href="#" onclick="confirmLogout()">Đăng xuất</a></li>
+            </ul>
+             </div>
+        <!-- Trending Games Section -->
+        <div id="trending-section">
+            <div id="search-section">
+                <input type="text" id="search-bar" placeholder="Search for a game..." />
+                <button id="search-button"><i class="ti-search"></i> Search</button>
+            </div>
+            <h2 class="trending-h2">Trending Games</h2>
+            <div class="games-grid">
+                <div class="game-item">
+                    <img src="https://thanhnien.mediacdn.vn/uploaded/truongnghi/2021_08_16/pubg_ANVG.jpg?width=500" alt="Game 1" class="game-img">
+                    <p class="game-title">PUBG</p>
+                    <a href="https://pubg.com/vi/main" target="_blank"><button class="download-btn">Download Free</button></a>
+                </div>
+
+                <div class="game-item">
+                    <img src="https://cdn.tgdd.vn/2020/06/content/hinh-nen-lien-minh-huyen-thoai-dep-mat-cho-pc-va-dien-thoai-background-800x450.jpg" alt="Game 2" class="game-img">
+                    <p class="game-title">Liên Minh</p>
+                    <a href="https://lienminh.vnggames.com/dang-ky/redownload/" target="_blank"><button class="download-btn">Download Free</button></a>
+                </div>
+
+                <div class="game-item">
+                    <img src="https://hoanghapc.vn/media/news/2406_naraka-bladepoint-1.jpg" alt="Game 3" class="game-img">
+                    <p class="game-title">Naraka</p>
+                    <a href="https://www.narakathegame.com/download/#/" target="_blank"><button class="download-btn">Download Free</button></a>
+                </div>
+
+                <div class="game-item">
+                    <img src="https://pcmarket.vn/media/news/1203_vavab9.png" alt="Game 4" class="game-img">
+                    <p class="game-title">Valorant</p>
+                    <a href="https://playvalorant.com/vi-vn/download/" target="_blank"><button class="download-btn">Download Free</button></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="download.js"></script>
+</body>
+</html>

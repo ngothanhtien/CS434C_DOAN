@@ -1,0 +1,276 @@
+body{
+    background-color:#040a2b;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #040a2b;
+}
+.review{
+    background-color: #ccc;
+}
+.container{
+    margin-top: 50px;
+}
+.Home{
+    background-color: #3cdc3c;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #7758de;
+    margin-left: 24px;
+    /* margin-top: 20px; */
+}
+#search-section {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 1000px;
+    margin-right: 190px;
+}
+
+#search-bar {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.user-icons .icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: #5c5cff;
+}
+
+/* Main Display */
+.main-display {
+    flex: 4;
+    margin-left: 200px;
+}
+
+.game-highlight {
+    text-align: center;
+}
+
+.game-highlight img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.game-thumbnails {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.game-thumbnails img {
+    width:250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    color: #5c5cff;
+}
+
+/* Description */
+.description {
+    flex: 1;
+    background-color: #040a2b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #FFFFFF;
+}
+
+.description h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.description p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.icon {
+    color: #FFFFFF;
+}
+.page-number {
+    background-color: #0e0d0d;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: white;
+}
+
+.page-number:hover {
+    background-color: #d26969;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.column {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.column-third {
+    width: 33.33333%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*  Thanh taskbar */
+#header {
+    height: 56px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav .search-img {
+    color: white;
+    font-size: 30px;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {
+    color: white;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 56px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: black;
+    background-color: #ccc;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav .A-down {
+    font-size: 14px;
+}
+
+#nav .subnav a {
+    color: black;
+    padding: 0 20px;
+    line-height: 46px;
+}
+
+.exit {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 623px;
+}
